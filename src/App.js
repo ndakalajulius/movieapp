@@ -1,5 +1,4 @@
 // App..js
-
 import './App.css';
 import { useState } from 'react';
 import ReactPlayer from 'react-player';
@@ -36,8 +35,7 @@ function App() {
                 </button>
             </div>
 
-      // Using 'ReactPlayer' component to
-            // display the video
+    
             <ReactPlayer url={videoURL} controls={true} />
         </div>
     );
